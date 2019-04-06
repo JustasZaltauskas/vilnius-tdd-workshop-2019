@@ -6,6 +6,7 @@ module.exports = {
     debug: true
   },
   launch: {
-    devtools: false
+    devtools: false,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
   }
 };
